@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D66C6CDD27E8EEDD0011DD0E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C6CDC27E8EEDD0011DD0E /* HomePageViewController.swift */; };
+		D6853CDC27E92CBB003A685B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6853CDB27E92CBB003A685B /* Utility.swift */; };
 		D6CDEB4027E8E60900066B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CDEB3F27E8E60900066B3D /* AppDelegate.swift */; };
 		D6CDEB4227E8E60900066B3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CDEB4127E8E60900066B3D /* SceneDelegate.swift */; };
-		D6CDEB4427E8E60900066B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CDEB4327E8E60900066B3D /* ViewController.swift */; };
+		D6CDEB4427E8E60900066B3D /* DetailsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CDEB4327E8E60900066B3D /* DetailsPageViewController.swift */; };
 		D6CDEB4727E8E60900066B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CDEB4527E8E60900066B3D /* Main.storyboard */; };
 		D6CDEB4927E8E60C00066B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CDEB4827E8E60C00066B3D /* Assets.xcassets */; };
 		D6CDEB4C27E8E60C00066B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CDEB4A27E8E60C00066B3D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D66C6CDC27E8EEDD0011DD0E /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		D6853CDB27E92CBB003A685B /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		D6CDEB3C27E8E60900066B3D /* Ind03_jaffri_faisal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ind03_jaffri_faisal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CDEB3F27E8E60900066B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6CDEB4127E8E60900066B3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6CDEB4327E8E60900066B3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6CDEB4327E8E60900066B3D /* DetailsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPageViewController.swift; sourceTree = "<group>"; };
 		D6CDEB4627E8E60900066B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6CDEB4827E8E60C00066B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6CDEB4B27E8E60C00066B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				D6CDEB3F27E8E60900066B3D /* AppDelegate.swift */,
 				D6CDEB4127E8E60900066B3D /* SceneDelegate.swift */,
-				D6CDEB4327E8E60900066B3D /* ViewController.swift */,
+				D6CDEB4327E8E60900066B3D /* DetailsPageViewController.swift */,
+				D66C6CDC27E8EEDD0011DD0E /* HomePageViewController.swift */,
+				D6853CDB27E92CBB003A685B /* Utility.swift */,
 				D6CDEB4527E8E60900066B3D /* Main.storyboard */,
 				D6CDEB4827E8E60C00066B3D /* Assets.xcassets */,
 				D6CDEB4A27E8E60C00066B3D /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6CDEB4427E8E60900066B3D /* ViewController.swift in Sources */,
+				D6853CDC27E92CBB003A685B /* Utility.swift in Sources */,
+				D66C6CDD27E8EEDD0011DD0E /* HomePageViewController.swift in Sources */,
+				D6CDEB4427E8E60900066B3D /* DetailsPageViewController.swift in Sources */,
 				D6CDEB4027E8E60900066B3D /* AppDelegate.swift in Sources */,
 				D6CDEB4227E8E60900066B3D /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YR3J4UGQ85;
@@ -302,8 +311,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ios.assignment3.osu.Ind03-jaffri-faisal";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.assignment3.osu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YR3J4UGQ85;
@@ -330,8 +341,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ios.assignment3.osu.Ind03-jaffri-faisal";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.assignment3.osu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
